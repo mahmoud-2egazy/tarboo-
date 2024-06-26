@@ -7,23 +7,47 @@ import fetch from 'node-fetch';
 import axios from 'axios';
 import moment from 'moment-timezone';
 
-global.botnumber = "201016948771"
+global.botnumber = ""
 global.confirmCode = ""
 
 global.owner = [
   ['201225655220', '👑 𝑬𝐿𝑻𝑨𝑹𝑩𝑶𝑶︎ 👑', true],
+  ['201225655220', '💫 EL TARBOO 2 💫', true],
+  ['201225655220', '💫 EL TARBOO 3 💫', true],
+  ['201225655220', '💫 EL TARBOO 4 💫', true],
+  ['201225655220', '💫 EL TARBOO 5 💫', true],
+  ['201225655220', '💫 EL TARBOO 6 💫', true],
+  ['201225655220', '💫 EL TARBOO 7 💫', false],
+  ['201225655220', '💫 EL TARBOO 8 💫', true],
+  ['201225655220', '💫 EL TARBOO 9 💫', true],
+  ['201225655220','💫 EL TARBOO 10💫', true],
+  ['201225655220'],
+  ['5492266466080'],
+  ['201225655220'],
+  ['201225655220'],
+  ['201225655220'], 
+  ['201225655220'],  
+  ['201225655220'],
+  ['201225655220'],
+  ['201225655220'],
+  ['201225655220'], 
+  ['201225655220'], 
+  ['201225655220'],
+  ['201225655220'],
+  ['201225655220'],
+  ['201225655220'], 
   ['201225655220']
 ];
 
 global.suittag = ['201225655220'];
 global.prems = ['201225655220'];
 
-global.packname = 'Sticker';
-global.author = 'The Tarboo - Bot';
-global.wm = 'The Tarboo - Bot';
-global.titulowm = 'The Tarboo - Bot';
-global.titulowm2 = `The Tarboo - Bot`
-global.igfg = 'The Tarboo - Bot';
+global.packname = 'EL TARBOO';
+global.author = 'The ELTARBOO - Bot';
+global.wm = 'The ELTARBOO - Bot';
+global.titulowm = 'The ELTARBOO - Bot';
+global.titulowm2 = `The ELTARBOO - Bot`
+global.igfg = 'The ELTARBOO - Bot';
 global.wait = '*⌛ _جاري التحميل..._ ⌛*\n\n*▰▰▰▱▱▱▱▱*';
 
 global.imagen1 = fs.readFileSync('./Menu2.jpg');
@@ -48,15 +72,15 @@ global.mes = d.toLocaleDateString('es', {month: 'long'});
 global.año = d.toLocaleDateString('es', {year: 'numeric'});
 global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
 //* ****************************
-global.wm2 = `${dia} ${fecha}\nThe Tarboo - Bot`;
-global.gt = 'The Tarboo - Bot';
-global.mysticbot = 'The Tarboo - Bot';
+global.wm2 = `${dia} ${fecha}\nThe ELTARBOO - Bot`;
+global.gt = 'The ELTARBOO - Bot';
+global.mysticbot = 'The Mystic - Bot';
 global.md = 'https://github.com/BrunoSobrino/TheMystic-Bot-MD';
 global.mysticbot = 'https://github.com/BrunoSobrino/TheMystic-Bot-MD';
 global.waitt = '*⌛ _جاري التحميل..._ ⌛*\n\n*▰▰▰▱▱▱▱▱*';
 global.waittt = '*⌛ _جاري التحميل..._ ⌛*\n\n*▰▰▰▱▱▱▱▱*';
 global.waitttt = '*⌛ _جاري التحميل..._ ⌛*\n\n*▰▰▰▱▱▱▱▱*';
-global.nomorown = '201225655220';
+global.nomorown = '5219993404349';
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf'];
 global.cmenut = '❖––––––『';
 global.cmenub = '┊✦ ';
