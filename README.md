@@ -44,8 +44,8 @@
 - Tienes ideas de plugins o ¿quieres obtener mas plugins? entonces hace [clic aquí](https://github.com/theh2so4/Mystic-Plugins)
 
 ### `▢ AJUSTES`
-- Clona el repositorio haciendo [clic aquí](https://github.com/BrunoSobrino/TheMystic-Bot-MD/fork)
-- ¿Quieres cambiar el número del propietario? haz [clic aquí](https://github.com/BrunoSobrino/TheMystic-Bot-MD/blob/master/config.js)
+- Clona el repositorio haciendo [clic aquí](https://github.com/tarboo-bot-md/BOT_TARBOO/fork)
+- ¿Quieres cambiar el número del propietario? haz [clic aquí](https://github.com/tarboo-bot-md/BOT_TARBOO/blob/master/config.js)
 
 ### `▢ ACTIVAR EN CAFIREXOS (ANTES ZIPPONODES)`
 <a href="https://cafirexos.com"><img src="https://cdn.cafirexos.com/logos%2Flogo_cfros_2000x2000.png" height="125px"></a>
@@ -79,11 +79,11 @@
 
 ### `▢ ACTIVAR EN KOYEB`
 
-[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=https://github.com/BrunoSobrino/TheMystic-Bot-MD&branch=master&name=mysticbot)
+[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=https://github.com/tarboo-bot-md/BOT_TARBOO&branch=master&name=mysticbot)
   
 ### `▢ ACTIVAR EN REPLIT`
 
-[![Run on Repl.it](https://repl.it/badge/github/BrunoSobrino/TheMystic-Bot-MD)](https://repl.it/github/BrunoSobrino/TheMystic-Bot-MD) 
+[![Run on Repl.it](https://repl.it/badge/github.com/tarboo-bot-md/BOT_TARBOO)](https://repl.it/github.com/tarboo-bot-md/BOT_TARBOO) 
   
 ### `▢ ACTIVAR EN RENDER`
 
@@ -104,7 +104,7 @@ pkg install -y git nodejs ffmpeg imagemagick && pkg install yarn
 ```
 
 ```bash
-git clone https://github.com/BrunoSobrino/TheMystic-Bot-MD.git && cd TheMystic-Bot-MD
+git clone https://github.com/tarboo-bot-md/BOT_TARBOO.git && cd TheMystic-Bot-MD
 ```
 
 ```bash
