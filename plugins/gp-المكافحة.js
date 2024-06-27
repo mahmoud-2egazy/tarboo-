@@ -35,7 +35,7 @@ let text =
 ╰━━━━━❰ *𓃠 ${vs}* ❱━━━━⬣
 `.trim()
 //conn.sendFile(m.chat, pp, 'error.jpg', text, m, false, { mentions: [...groupAdmins.map(v => v.id), owner] }) 
-conn.sendHydrated(m.chat, text, wm, pp, md, '𝒕𝒂𝒓𝒃𝒐𝒐', null, null, [
+conn.sendHydrated(m.chat, text, wm, pp, md, '𝒌𝒍𝒆𝒗𝒆𝒓', null, null, [
 ['الاوامر ☘️', '/menuall']
 ], m,)
 }
