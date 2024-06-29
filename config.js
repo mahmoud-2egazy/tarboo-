@@ -7,48 +7,21 @@ import fetch from 'node-fetch';
 import axios from 'axios';
 import moment from 'moment-timezone';
 
-global.botnumber = ""
-global.confirmCode = ""
-
 global.owner = [
-  ['201225655220', '👑 𝑬𝐿𝑻𝑨𝑹𝑩𝑶𝑶︎ 👑', true],
-  ['201225655220', '💫 EL TARBOO 2 💫', true],
-  ['201225655220', '💫 EL TARBOO 3 💫', true],
-  ['201225655220', '💫 EL TARBOO 4 💫', true],
-  ['201225655220', '💫 EL TARBOO 5 💫', true],
-  ['201225655220', '💫 EL TARBOO 6 💫', true],
-  ['201225655220', '💫 EL TARBOO 7 💫', false],
-  ['201225655220', '💫 EL TARBOO 8 💫', true],
-  ['201225655220', '💫 EL TARBOO 9 💫', true],
-  ['201225655220','💫 EL TARBOO 10💫', true],
-  ['201225655220'],
-  ['5492266466080'],
-  ['201225655220'],
-  ['201225655220'],
-  ['201225655220'], 
-  ['201225655220'],  
-  ['201225655220'],
-  ['201225655220'],
-  ['201225655220'],
-  ['201225655220'], 
-  ['201225655220'], 
-  ['201225655220'],
-  ['201225655220'],
-  ['201225655220'],
-  ['201225655220'], 
-  ['201225655220']
+  ['201225655220', '❬ 𝒕𝒂𝒓𝒃𝒐𝒐 𝒐𝒘𝒏𝒆𝒓 ❭', true],
 ];
 
+global.xaxa = 'Tarboo-Bot'
 global.suittag = ['201225655220'];
 global.prems = ['201225655220'];
 
-global.packname = 'EL TARBOO';
-global.author = 'The ELTARBOO - Bot';
-global.wm = 'The ELTARBOO - Bot';
-global.titulowm = 'The ELTARBOO - Bot';
-global.titulowm2 = `The ELTARBOO - Bot`
-global.igfg = 'The ELTARBOO - Bot';
-global.wait = '*⌛ _جاري التحميل..._ ⌛*\n\n*▰▰▰▱▱▱▱▱*';
+global.packname = 'Tarboo';
+global.author = '★Tarboo - Tarboo Bot★';
+global.wm = '★Tarboo-Bot★';
+global.titulowm = '🤖Tarboo-Bot🤖';
+global.titulowm2 = `乂Tarboo-Bot乂`
+global.igfg = '★Tarboo★';
+global.wait = '*⌛ _جاري التحميل..._*\n\n*▰▰▰▱▱▱▱▱*';
 
 global.imagen1 = fs.readFileSync('./Menu2.jpg');
 global.imagen2 = fs.readFileSync('./src/nuevobot.jpg');
@@ -56,31 +29,27 @@ global.imagen3 = fs.readFileSync('./src/Pre Bot Publi.png');
 global.imagen4 = fs.readFileSync('./Menu.png');
 global.imagen5 = fs.readFileSync('./src/+18.jpg');
 global.imagen6 = fs.readFileSync('./Menu3.png');
-global.imagen7 = fs.readFileSync('./src/menu_pt.png');
-global.imagen8 = fs.readFileSync('./src/menu_fr.png')
-global.imagen9 = fs.readFileSync('./src/menu_en.png')
-global.imagen10 = fs.readFileSync('./src/menu_ru.png')
 
 global.mods = [];
 
 //* *******Tiempo***************
 global.d = new Date(new Date + 3600000);
-global.locale = 'es';
+global.locale = 'ar';
 global.dia = d.toLocaleDateString(locale, {weekday: 'long'});
-global.fecha = d.toLocaleDateString('es', {day: 'numeric', month: 'numeric', year: 'numeric'});
-global.mes = d.toLocaleDateString('es', {month: 'long'});
-global.año = d.toLocaleDateString('es', {year: 'numeric'});
+global.fecha = d.toLocaleDateString('ar', {day: 'numeric', month: 'numeric', year: 'numeric'});
+global.mes = d.toLocaleDateString('ar', {month: 'long'});
+global.año = d.toLocaleDateString('ar', {year: 'numeric'});
 global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
 //* ****************************
-global.wm2 = `${dia} ${fecha}\nThe ELTARBOO - Bot`;
-global.gt = 'The ELTARBOO - Bot';
-global.mysticbot = 'The Mystic - Bot';
-global.md = 'https://github.com/BrunoSobrino/TheMystic-Bot-MD';
-global.mysticbot = 'https://github.com/BrunoSobrino/TheMystic-Bot-MD';
-global.waitt = '*⌛ _جاري التحميل..._ ⌛*\n\n*▰▰▰▱▱▱▱▱*';
-global.waittt = '*⌛ _جاري التحميل..._ ⌛*\n\n*▰▰▰▱▱▱▱▱*';
-global.waitttt = '*⌛ _جاري التحميل..._ ⌛*\n\n*▰▰▰▱▱▱▱▱*';
-global.nomorown = '5219993404349';
+global.wm2 = `▸ ${dia} ${fecha}\n▸ Tarboo-Bot`;
+global.gt = '★Tarboo★';
+global.mysticbot = '★Tarboo★';
+global.md = 'https://chat.whatsapp.com/BjrqiXLZKmZ3jW7vEDyV27';
+global.mysticbot = 'https://chat.whatsapp.com/BjrqiXLZKmZ3jW7vEDyV27';
+global.waitt = '*⌛ _جاري التحميل..._*\n\n*▰▰▰▱▱▱▱▱*';
+global.waittt = '*⌛ _جاري التحميل..._*\n\n*▰▰▰▱▱▱▱▱*';
+global.waitttt = '*⌛ _جاري التحميل..._*\n\n*▰▰▰▱▱▱▱▱*';
+global.nomorown = '201225655220';
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf'];
 global.cmenut = '❖––––––『';
 global.cmenub = '┊✦ ';
@@ -95,8 +64,8 @@ global.htki = '*⭑•̩̩͙⊱•••• ☪*';
 global.htka = '*☪ ••••̩̩͙⊰•⭑*';
 global.comienzo = '• • ◕◕════';
 global.fin = '════◕◕ • •';
-global.botdate = `*[ 📅 ] Fecha:*  ${moment.tz('America/Mexico_City').format('DD/MM/YY')}`;
-global.bottime = `*[ ⏳ ] Hora:* ${moment.tz('America/Mexico_City').format('HH:mm:ss')}`;
+global.botdate = `⫹⫺ Date :  ${moment.tz('America/Los_Angeles').format('DD/MM/YY')}`; // Asia/Jakarta
+global.bottime = `𝗧 𝗜 𝗠 𝗘 : ${moment.tz('America/Los_Angeles').format('HH:mm:ss')}`;// America/Los_Angeles
 global.fgif = {key: {participant: '0@s.whatsapp.net'}, message: {'videoMessage': {'title': wm, 'h': `Hmm`, 'seconds': '999999999', 'gifPlayback': 'true', 'caption': bottime, 'jpegThumbnail': fs.readFileSync('./Menu.png')}}};
 global.multiplier = 99;
 global.flaaa = [
