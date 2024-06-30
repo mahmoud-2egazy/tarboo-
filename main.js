@@ -105,7 +105,7 @@ loadChatgptDB();
 
 /* ------------------------------------------------*/
 
-global.authFile = `Tarboo`;
+global.authFile = `Tarboo-Bot`;
 const {state, saveState, saveCreds} = await useMultiFileAuthState(global.authFile);
 const msgRetryCounterMap = (MessageRetryMap) => { };
 const {version} = await fetchLatestBaileysVersion();
@@ -132,7 +132,7 @@ const connectionOptions = {
     creds: state.creds,
     keys: makeCacheableSignalKeyStore(state.keys, pino({level: 'silent'})),
   },
-  browser: ['Tarboo', 'Safari', '1.0.0'],
+  browser: ['Tarboo-Bot', 'Safari', '1.0.0'],
   version,
   defaultQueryTimeoutMs: undefined,
 };
@@ -169,7 +169,7 @@ function clearTmp() {
 
 function purgeSession() {
 let prekey = []
-let directorio = readdirSync("./Tarboo")
+let directorio = readdirSync("./Tarboo-Bot")
 let filesFolderPreKeys = directorio.filter(file => {
 return file.startsWith('pre-key-') /*|| file.startsWith('session-') || file.startsWith('sender-') || file.startsWith('app-') */
 })
@@ -200,7 +200,7 @@ console.log(chalk.bold.red(`=> Algo salio mal durante la eliminación, archivos 
 }}
 
 function purgeOldFiles() {
-const directories = ['./Tarboo/', './jadibts/']
+const directories = ['./Tarboo-Bot/', './jadibts/']
 const oneHourAgo = Date.now() - (60 * 60 * 1000)
 directories.forEach(dir => {
 readdirSync(dir, (err, files) => {
@@ -300,7 +300,7 @@ global.reloadHandler = async function(restatConn) {
   }
 
 conn.welcome = '*╭─ 〭〭〬〬⿻❥〬〬〬ꦿ[ Tarboo ] 〭〭〬〬⿻❥〬〬〬ꦿ─╮*\n*│ꪶ→ @subject*\n*│──────────────*\n*│ꪶ→ @user*\n*│ꪶ→ مرحبا انا تربو💦🌿✨* \n*│*\n*│ꪶ→ وصف💝 المجموعه:*\n\n@desc\n\n*│*\n*│ꪶ→ واتمنى ان تستمتع معنا بالمجموعه*\n*╰──────────────╯*'
-conn.bye = '*╭─ 〭〭〬〬⿻❥〬〬〬ꦿ[ ᴏʙɪᴛᴏ ] 〭〭〬〬⿻❥〬〬〬ꦿ─╮*\n*│ꪶ→ @user*\n*│ꪶ→ غادر المجموعه ⛔*\n*╰──────────────╯*'
+conn.bye = '*╭─ 〭〭〬〬⿻❥〬〬〬ꦿ[ Tarboo ] 〭〭〬〬⿻❥〬〬〬ꦿ─╮*\n*│ꪶ→ @user*\n*│ꪶ→ غادر المجموعه ⛔*\n*╰──────────────╯*'
 conn.spromote = '*@user اصبح مشرف !!*'
 conn.sdemote = '*@user تم تنزيله من مشرف الى عضو !!*'
 conn.sDesc = '*تم تعديل وصف المجموعه*\n\n*الوصف الجديد:* @desc'
